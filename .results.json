@@ -1,0 +1,27 @@
+{
+  "stats": {
+    "suites": 0,
+    "tests": 0,
+    "passes": 0,
+    "pending": 0,
+    "failures": 1,
+    "start": "2020-10-31T21:12:17.945Z",
+    "end": "2020-10-31T21:12:23.888Z",
+    "duration": 5943
+  },
+  "tests": [],
+  "pending": [],
+  "failures": [
+    {
+      "title": "\"before all\" hook",
+      "fullTitle": "\"before all\" hook",
+      "duration": 5933,
+      "currentRetry": 0,
+      "err": {
+        "stack": "Error: Timeout of 5000ms exceeded. For async tests and hooks, ensure \"done()\" is called; if returning a Promise, ensure it resolves.\n    at Object.done (node_modules/mocha-jsdom/index.js:70:7)\n    at /home/majd/code/labs/js-advanced-functions-functional-library-project-re-coded_istanbul_web003/node_modules/jsdom/lib/jsdom.js:312:18\n    at processTicksAndRejections (internal/process/task_queues.js:75:11)",
+        "message": "Timeout of 5000ms exceeded. For async tests and hooks, ensure \"done()\" is called; if returning a Promise, ensure it resolves."
+      }
+    }
+  ],
+  "passes": []
+}
